@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windspeed</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body123">
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="Index.html"> 
+                <span class="nav-color navbaractive">Latitude</span></a>
+            </div>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+	        <div class="collapse navbar-collapse" id="navbarResponsive">
+		        <ul class="navbar-nav ml-auto">
+			        <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="Maxtemperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="Humidity.html">Humidity</a>
+			        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+			        <a class="dropdown-item" href="Windspeed.html">Wind Speed</a>
+                </div>
+		            </li>
+		        <li class="nav-item active">
+			        <a class="nav-link" href="Comparison.html">Comparison</a>
+		        </li>
+		        <li class="nav-item">
+			        <a class="nav-link" href="Data.html">Data</a>
+		        </li>
+		        </ul>
+	        </div>
+	    </div>
+    </nav>
+ 
+        <div class= "container">
+            <div class= "row">
+
+                <div class="col-md-7">
+                        <div class="main-box">
+                            <h1 class="main-pg-header">Windspeed</h1>
+                            <hr>
+                                <img id="click-img" src="assets/Fig4.png" alt="Temp vs Latitude">
+                                <p>
+                                    The visualization displays a variety of wind speed percentages when at different lattitudes. However, it does 
+                                    appear that lower wind speeds tend to be in cities closer to the equator. 
+                                    versus the southern hempisphere.
+                                </p>
+                        </div>
+                </div>
+
+
+                <div class= "col-md-5">
+                    <div class= "side-box">
+                    <h2 class= "main-pg-subheader">Visualizations</h2>
+                    <hr>
+                    <div class= "sidebar">
+                        <a href= "Maxtemperature.html"><img id= "side-img1" src="assets/Fig1.png" alt= "Temp vs. Latitude Scatterplt"></a>
+                        <a href= "Humidity.html"><img id= "side-img2" src= "assets/Fig2.png" alt= "Humidity vs. Latitude Scatterplt"></a>
+                        <a href= "Cloudiness.html"><img id= "side-img3" src= "assets/Fig3.png" alt= "Cloudiness vs. Latitude Scatterplt"></a>
+                        <a href= "Windspeed.html"><img id= "side-img4" src= "assets/Fig4.png" alt= "Wind Speed vs. Latitude Scatterplt"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                   
+</body>
+         
+</html>

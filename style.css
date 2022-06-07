@@ -1,0 +1,125 @@
+.body123{
+    background-color: lightgray;
+}
+
+.navbaractive {
+    font-weight: bold;
+    background-color: #2935df;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.whiteback{
+    background-color: white;
+}
+
+h1{
+    font-weight: bold;
+    color: #2935df;
+    font-size: 40px;
+}
+
+h2{
+    font-weight: bold;
+    color: #2935df;
+    font-size: 30px;
+}
+
+.table-striped{
+    text-align:center;
+}
+
+#landingimage{
+    float: left;
+    width: 320px;
+    height: 270px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#click-img{
+    width: 550px;   
+}
+
+.comp-image{
+    height: 400px;
+    width: 500px;
+}
+
+p{
+  font-size: 20px;
+  padding: 7px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;  
+}
+
+.main-box{
+    background: white;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    align-content: center;
+    position: relative;
+}
+
+.side-box{
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    align-content: center;
+    position: absolute;
+}
+
+.sidebar{
+    position: relative;
+    height: 350px;
+    width: 385px;
+    align-content: center;
+}
+
+#side-img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 170px;
+    width: 170px;
+    border: 3px solid white;
+}
+
+#side-img2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 170px;
+    width: 170px;
+    border: 3px solid white;
+}
+
+#side-img3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 170px;
+    width: 170px;
+    border: 3px solid white;
+}
+
+#side-img4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 170px;
+    width: 170px;
+    border: 3px solid white;
+}
